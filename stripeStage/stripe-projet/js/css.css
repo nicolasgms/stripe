@@ -1,0 +1,58 @@
+*{
+    font-family: system-ui;
+    outline: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    width: 450px;
+    height: 350px;
+    background-color: #f3f3f3;
+    border: 6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cardholder-name{
+    font-size: large;
+    background-color:fff;
+    border: 2px solid #999;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.post{
+    margin-top: -50px;
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid #999;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#prix{
+    border: 2px solid #999;
+    border-radius: 10px;
+}
+#card-button{
+    margin-top: 9%;
+    margin-left: 65%;
+}
+img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
